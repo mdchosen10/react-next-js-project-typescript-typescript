@@ -1,0 +1,46 @@
+{
+  "projectRoot": "/app/generated-projects/7d05e52b-8d3b-471a-8469-2ed241b88d52",
+  "structure": {
+    "type": "single-app",
+    "directories": [
+      "_original",
+      "attachments",
+      "lib",
+      "public",
+      "src",
+      "uploads"
+    ],
+    "hasTests": false,
+    "hasDocs": false
+  },
+  "languages": [
+    {
+      "language": "TypeScript",
+      "fileCount": 47,
+      "confidence": 0.1950207468879668
+    },
+    {
+      "language": "TypeScript",
+      "fileCount": 28,
+      "confidence": 0.11618257261410789
+    },
+    {
+      "language": "JavaScript",
+      "fileCount": 6,
+      "confidence": 0.024896265560165973
+    }
+  ],
+  "frameworks": [
+    {
+      "framework": "React",
+      "type": "frontend",
+      "confidence": 0.9
+    },
+    {
+      "framework": "Next.js",
+      "type": "fullstack",
+      "confidence": 0.95
+    }
+  ],
+  "analyzedAt": "2026-01-28T06:14:43.258Z"
+}

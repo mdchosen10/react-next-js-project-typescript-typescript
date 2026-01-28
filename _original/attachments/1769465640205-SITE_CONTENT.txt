@@ -1,0 +1,283 @@
+[File: SITE_CONTENT.txt]
+# GOBANANAS ENTERPRISE LANDING PAGE - SITE CONTENT
+# Extracted from frontend components
+
+================================================================================
+HERO
+================================================================================
+
+Badges:
+- SOC2 Type II Certified
+- MIT Founded
+- Enterprise Ready
+
+Headline: Transform Legacy Systems
+
+Subheadline: Into Modern Powerhouses
+
+Description: Enterprise AI-powered development platform delivering systematic legacy modernization, codebase extension, and technical debt reduction across any technology stack.
+
+Stats:
+- 10x Faster | Migration Speed
+- 99.9% | Uptime SLA
+- 75% | Cost Reduction
+
+CTAs: Request Demo | Talk to Sales
+
+Trust Line: Trusted by Fortune 500 • 15+ Years Enterprise Experience • Any Tech Stack
+
+
+================================================================================
+CAPABILITIES
+================================================================================
+
+Section Title: Enterprise-Grade Modernization
+Subheadline: Comprehensive solutions for legacy system modernization, built for Fortune 500 scale and complexity.
+
+--- Legacy Migration ---
+Deep refactoring across any tech stack
+- COBOL, C#, Java, Python modernization
+- Complex interdependency handling
+- Reduced migration risk assessment
+- Phased approach with parallel systems
+
+--- Extend Existing Apps ---
+Modernize UI layers and add new features
+- Add modern frontends to legacy backends
+- Incremental modernization strategy
+- No full rewrites required
+- API layer abstraction and integration
+
+--- Reduce Technical Debt ---
+Systematic debt identification and reduction
+- AI-powered debt quantification
+- Prioritization framework development
+- Measurable reduction metrics
+- Continuous improvement tracking
+
+
+================================================================================
+HOW IT WORKS
+================================================================================
+
+Section Title: How It Works
+Subheadline: A systematic, risk-aware approach to legacy modernization with full-service execution support.
+
+--- 01 Analyze ---
+AI-powered codebase analysis and dependency mapping
+- Deep codebase scanning across all technologies
+- Technical debt quantification and prioritization
+- Risk assessment and impact analysis
+- Timeline and effort estimation
+
+--- 02 Plan ---
+Risk-aware refactoring roadmap with experienced oversight
+- Phased approach with minimal business disruption
+- Integration with existing workflows and tools
+- Dedicated enterprise point of contact assigned
+- Custom migration strategy for your architecture
+
+--- 03 Execute ---
+Automated refactoring with full engagement management
+- AI-powered refactoring with human oversight
+- Continuous integration and testing
+- Real-time progress tracking and reporting
+- Complete project management from start to finish
+
+Results Banner: Average Results: 30-50% faster development cycles • 40-60% technical debt reduction
+
+
+================================================================================
+SECURITY & COMPLIANCE
+================================================================================
+
+Section Title: Security & Compliance
+Subheadline: Enterprise-grade security infrastructure trusted by Fortune 500 companies.
+
+SOC2 Type II: Comprehensive security controls and annual audits
+HIPAA Compliant: Healthcare data protection and privacy standards
+Enterprise Data Residency: Your data stays in your preferred geographic region
+End-to-End Encryption: AES-256 encryption in transit and at rest
+Access Controls: Role-based permissions and multi-factor authentication
+Audit Logging: Complete activity tracking and compliance reporting
+
+CTA: View Security Documentation
+
+
+================================================================================
+INTEGRATIONS
+================================================================================
+
+Section Title: Integration Ecosystem
+Subheadline: Works seamlessly with your existing tools. No rip-and-replace required.
+
+Integrations:
+- GitHub Enterprise
+- GitLab
+- Azure DevOps
+- Jira
+- ServiceNow
+- SAP
+- Oracle
+- Microsoft 365
+- Salesforce
+- Jenkins
+- PagerDuty
+
+Custom Integration CTA:
+Title: Need a Custom Integration?
+Text: Our enterprise team builds custom integrations for your specific workflow requirements.
+Button: Discuss Custom Integration
+
+
+================================================================================
+CASE STUDIES
+================================================================================
+
+Section Title: Proven Enterprise Results
+Subheadline: Real transformation stories from Fortune 500 companies across critical industries.
+
+--- CASE STUDY 1: Financial Services ---
+Company: Fortune 500 Bank (50K+ employees)
+Challenge: Legacy COBOL system modernization
+
+Metrics:
+- 40% Cost Reduction
+- $2.3M Annual Savings
+- 6 months Timeline
+
+Solution: Phased refactoring with parallel systems, compliance-aware approach ensuring zero downtime during transition
+
+Results:
+- Zero-downtime migration of critical banking systems
+- Full SOX and regulatory compliance maintained
+- Reduced system maintenance costs by 40%
+- Improved developer productivity by 3x
+
+Quote: "GoBananas helped us modernize our core banking system with zero downtime and full regulatory compliance. The systematic approach gave us confidence throughout the entire process."
+
+
+--- CASE STUDY 2: Transportation & Logistics ---
+Company: Global Logistics Leader (25K+ employees)
+Challenge: Multi-stack codebase extension
+
+Metrics:
+- 60% Delivery Speed
+- 8 New Features
+- 4 months Timeline
+
+Solution: Incremental modernization with API layer abstraction, allowing legacy systems to coexist with modern features
+
+Results:
+- Added real-time tracking to legacy systems
+- Integrated modern APIs without downtime
+- Reduced feature delivery time by 60%
+- Maintained full operational continuity
+
+Quote: "We were able to add modern capabilities to our legacy C# backend without disrupting operations. The phased approach was perfect for our 24/7 operations."
+
+
+--- CASE STUDY 3: Public Sector ---
+Company: Federal Agency (15K+ employees)
+Challenge: Technical debt reduction at scale
+
+Metrics:
+- 35% Debt Reduction
+- 99.9% System Uptime
+- 85% Reliability Improvement
+
+Solution: Systematic debt prioritization with automated refactoring and governance, ensuring security and compliance
+
+Results:
+- Reduced technical debt by 35% systematically
+- Improved system uptime to 99.9%
+- Enhanced security posture across all systems
+- Accelerated new feature deployment by 2x
+
+Quote: "The systematic approach to technical debt gave us measurable improvements in system reliability. We can now deliver citizen services more effectively."
+
+
+Case Studies CTA:
+Title: Ready for Your Success Story?
+Text: Get detailed case studies and see how we can transform your legacy systems.
+Buttons: Download Case Studies | Discuss Your Project
+
+
+================================================================================
+ROI
+================================================================================
+
+Section Title: Measurable Business Impact
+Subheadline: Real ROI metrics from Fortune 500 enterprise modernization projects.
+
+Metrics:
+- 50% Development Cycle Reduction | Faster time-to-market for new features
+- 60% Technical Debt Reduction | In 12 months with systematic approach
+- 75% Maintenance Cost Savings | Reduced ongoing maintenance overhead
+- 4x Developer Productivity | Faster feature development cycles
+
+
+--- Why Choose GoBananas? (Comparison) ---
+
+APPROACH:
+- Traditional: Manual refactoring and consulting
+- GoBananas: AI-powered analysis with human oversight
+
+TIMELINE:
+- Traditional: 12-24 months typical
+- GoBananas: 6-12 months average
+
+RISK LEVEL:
+- Traditional: High (manual process, no validation)
+- GoBananas: Low (automated validation, phased approach)
+
+SUPPORT MODEL:
+- Traditional: Limited post-delivery support
+- GoBananas: Full engagement management throughout
+
+
+ROI CTA:
+Title: Calculate Your Specific ROI
+Text: Get a personalized ROI analysis based on your specific codebase, team size, and modernization requirements.
+Buttons: Request ROI Analysis | Download Whitepaper
+
+
+================================================================================
+FOUNDER
+================================================================================
+
+Section Title: Built by Engineers Who've Lived the Pain
+
+Industries: Oil & Gas, Transportation, Financial Services, Public Sector
+
+--- MIT Engineering Background ---
+Founded by engineers with deep MIT computer science foundations and 15+ years of hands-on experience managing complex enterprise modernization projects.
+
+--- Real Enterprise Experience ---
+We've managed legacy modernization across Oil & Gas pipelines, Transportation logistics, Financial Services core systems, and Public Sector infrastructure. We understand the unique challenges of each industry.
+
+--- Full-Service Approach ---
+Every engagement includes an experienced point of contact who manages the entire project from planning through execution. You're not just buying software - you're getting a complete modernization partner.
+
+Quote: "We built GoBananas because we were tired of seeing enterprises struggle with the same legacy modernization challenges we'd solved dozens of times before."
+
+What This Means for You:
+- Deep technical expertise across any tech stack
+- Understanding of enterprise risk and compliance requirements
+- Proven track record with similar modernization challenges
+- Complete project management from start to finish
+
+
+================================================================================
+SOURCE FILES
+================================================================================
+
+This content was extracted from:
+- frontend/src/components/Hero.tsx
+- frontend/src/components/Capabilities.tsx
+- frontend/src/components/HowItWorks.tsx
+- frontend/src/components/Security.tsx
+- frontend/src/components/Integrations.tsx
+- frontend/src/components/CaseStudies.tsx
+- frontend/src/components/ROI.tsx
+- frontend/src/components/Founder.tsx

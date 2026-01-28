@@ -1,0 +1,16 @@
+runner
+COPY --from=builder /app/.next/standalone ./
+0ms
+
+runner
+COPY --from=builder /app/public ./public cached
+0ms
+Dockerfile:37
+-------------------
+35 |
+36 |     COPY --from=builder /app/public ./public
+37 |  COPY --from=builder /app/.next/standalone ./
+38 |     COPY --from=builder /app/.next/static ./.next/static
+39 |
+-------------------
+ERROR: failed to build: failed to solve: failed to compute cache key: failed to calculate checksum of ref 55y33o9dbwmp03qe8vu2cy6bv::y3aemkrxff31o6aqk57jm5b3w: "/app/.next/standalone": not found

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "projectId": "7d05e52b-8d3b-471a-8469-2ed241b88d52",
+  "userId": "bedb42e1-0186-4205-8083-23794a39780c",
+  "name": "React/Next.js project (TypeScript/TypeScript)",
+  "source": "upload",
+  "createdAt": "2026-01-28T06:14:43.271Z",
+  "lastSync": "2026-01-28T06:14:43.271Z",
+  "upload": {
+    "uploadedAt": "2026-01-28T06:14:43.271Z",
+    "originalFilename": "gobananas-enterprise.zip",
+    "originalFileCount": 147
+  },
+  "techStack": {
+    "languages": [
+      "TypeScript",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "frameworks": [
+      "React",
+      "Next.js"
+    ],
+    "hasBackend": true,
+    "hasFrontend": true,
+    "hasDatabase": false
+  },
+  "build": {
+    "status": "not_started",
+    "completionPercentage": 0
+  }
+}

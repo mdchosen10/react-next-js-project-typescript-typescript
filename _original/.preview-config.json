@@ -1,0 +1,17 @@
+{
+  "framework": "next",
+  "deploymentMode": "unified",
+  "buildStrategy": "production",
+  "unified": {
+    "workingDirectory": ".",
+    "installCommand": "npm install --legacy-peer-deps",
+    "buildCommand": "npm run build",
+    "startCommand": "npm start",
+    "port": 4000,
+    "env": {
+      "NODE_ENV": "production",
+      "DATABASE_URL": "file:./preview.db",
+      "NEXT_PUBLIC_APP_URL": "{{PREVIEW_URL}}"
+    }
+  }
+}

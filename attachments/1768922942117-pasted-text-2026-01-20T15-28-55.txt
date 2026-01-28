@@ -1,0 +1,67 @@
+Build a professional consulting website for Sinan AI, a boutique management consulting firm that converts enterprise transformation strategy into realized dollars through execution infrastructure.
+About the Founder (Mustafa):
+
+15+ years management consulting experience (Strategy&, Booz Allen Hamilton, government clients, major energy companies)
+MIT '09 Engineering graduate
+Former Palantir Technologies, SLB
+Former CEO of big-data analytics company
+Deep expertise in: AI/ML implementation, digital transformation, performance management systems, enterprise software modernization, execution infrastructure
+Track record with sovereign wealth funds, oil ministries, government entities, Fortune 500 companies
+Recent projects: Tourism authority performance intelligence, proposal automation systems, KPI frameworks, industrial partnerships
+
+The Core Problem We Solve:
+Companies have transformation roadmaps and savings targets identified by top-tier consultants (McKinsey, KPMG, EY, PWC), but execution stalls due to fragmented systems, manual workflows, and lack of execution ownership. Example: $15M in savings identified, only $4M captured, $11M stuck in execution gaps.
+Target Clients:
+
+US-based enterprises with prior transformation studies that stalled in execution
+Organizations with identified savings targets but fragmented systems (Oracle, AS400, Snowflake, EDI)
+Companies needing execution infrastructure, not more strategy decks
+Government contractors and large-scale operations with cross-functional execution challenges
+
+What Sinan AI Does (Core Value Proposition):
+
+Converts strategy into realized dollars through execution infrastructure
+Baselines processes and aligns stakeholders
+Designs and builds production systems that integrate with existing infrastructure
+Establishes governance and accountability
+Starts value capture in Week 3, not Month 12
+Fixed, phased engagements with clear deliverables
+Cost capped as percentage of savings
+
+Key Differentiators:
+
+We operationalize what others analyze
+Execution-first, not strategy-only
+One accountable partner from strategy through deployment
+Deep technical + strategic capability (engineering + consulting background)
+Hands-on implementation with production-grade systems
+We don't leave after the deck - we stay through deployment
+
+Design Direction:
+
+Professional, enterprise-grade aesthetic that conveys execution capability and trust
+Sophisticated gradient or abstract geometric pattern background with subtle motion to keep the feeling professional but dynamic
+Trust-building for C-suite decision-makers who are tired of strategy decks
+Clean, bold typography
+Focus on outcomes and execution, not tools or technology
+
+Must Include:
+
+Above-the-fold: "We convert transformation strategy into realized dollars" or similar execution-focused value proposition
+Social proof: Client types, savings captured (not just identified), execution timelines (Week 3 value capture)
+Real-world example: $15M identified → $4M captured → $11M execution gap we close
+Credibility markers: MIT, Palantir, Strategy&, major consulting firms, Fortune 500 experience
+Clear messaging: "You don't have a strategy problem — you have an execution infrastructure problem"
+CTA for discovery conversation (not demo)
+Case studies showing execution outcomes and value realized
+Contact form
+Subtle motion elements (gentle parallax, fade-ins)
+
+Avoid:
+
+Don't lead with platform or tooling
+Don't position as another SaaS tool
+Don't focus on features - focus on execution and outcomes
+Don't use startup/tech company aesthetics
+
+Make it feel like a premium boutique consultancy that Fortune 500 companies trust to actually execute and capture the value their strategy consultants identified but couldn't deliver.
