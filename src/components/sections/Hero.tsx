@@ -4,65 +4,22 @@ import { motion } from 'framer-motion';
 import { useScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Building2, Heart, Truck, Factory } from 'lucide-react';
-import { useRef, useEffect } from 'react';
+import { ArrowRight } from 'lucide-react';
+import { useRef, useEffect, useState } from 'react';
+import Particles, { initParticlesEngine } from '@tsparticles/react';
+import { loadSlim } from '@tsparticles/slim';
 
-// Updated: 2026-01-26
+// Updated: 2026-01-26 - Professional 3D with tsParticles
 export default function Hero() {
   const ref = useRef(null);
-  const vantaRef = useRef<HTMLDivElement>(null);
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 500], [0, 150]);
+  const [init, setInit] = useState(false);
 
   useEffect(() => {
-    let vantaEffect: any = null;
-
-    // Only load Vanta on faster connections
-    const connection = (navigator as any).connection;
-    const isSlowConnection = connection && (connection.effectiveType === 'slow-2g' || connection.effectiveType === '2g');
-
-    if (isSlowConnection) return;
-
-    const initVanta = async () => {
-      if (typeof window !== 'undefined' && vantaRef.current) {
-        const { default: VANTA } = await import('vanta/dist/vanta.net.min.js');
-        const THREE = await import('three');
-
-        vantaEffect = VANTA({
-          el: vantaRef.current,
-          THREE,
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
-          scale: 1.0,
-          scaleMobile: 1.0,
-          color: 0x14b8a6, // teal-500
-          backgroundColor: 0x0f172a, // navy-900
-          points: 5.0,
-          maxDistance: 40.0,
-          spacing: 30.0,
-        });
-      }
-    };
-
-    // Delay loading until hero is visible
-    const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
-        initVanta();
-        observer.disconnect();
-      }
-    });
-
-    if (vantaRef.current) {
-      observer.observe(vantaRef.current);
-    }
-
-    return () => {
-      if (vantaEffect) vantaEffect.destroy();
-      observer.disconnect();
-    };
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
+    }).then(() => setInit(true));
   }, []);
 
   const containerVariants = {
@@ -90,23 +47,93 @@ export default function Hero() {
       ref={ref}
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-navy-900"
     >
-      {/* Vanta.js 3D Neural Network Background */}
-      <div
-        ref={vantaRef}
-        className="absolute inset-0 z-0 opacity-60"
-        style={{ width: '100%', height: '100%' }}
-      />
+      {/* Professional 3D Network Background */}
+      {init && (
+        <Particles
+          id="tsparticles"
+          className="absolute inset-0 z-0"
+          options={{
+            background: {
+              color: { value: 'transparent' }
+            },
+            particles: {
+              color: { value: '#14b8a6' },
+              links: {
+                color: '#14b8a6',
+                distance: 150,
+                enable: true,
+                opacity: 0.4,
+                width: 1,
+                triangles: {
+                  enable: true,
+                  opacity: 0.1
+                }
+              },
+              move: {
+                enable: true,
+                speed: 1,
+                direction: 'none',
+                random: true,
+                straight: false,
+                outModes: { default: 'out' }
+              },
+              number: {
+                value: 80,
+                density: { enable: true, area: 800 }
+              },
+              opacity: {
+                value: { min: 0.3, max: 0.8 },
+                animation: {
+                  enable: true,
+                  speed: 1,
+                  minimumValue: 0.1
+                }
+              },
+              size: {
+                value: { min: 1, max: 3 },
+                animation: {
+                  enable: true,
+                  speed: 2,
+                  minimumValue: 0.1
+                }
+              },
+              shadow: {
+                enable: true,
+                color: '#14b8a6',
+                blur: 5
+              }
+            },
+            detectRetina: true,
+            interactivity: {
+              events: {
+                onHover: { enable: true, mode: 'grab' },
+                resize: true
+              },
+              modes: {
+                grab: {
+                  distance: 200,
+                  links: { opacity: 0.8 }
+                }
+              }
+            }
+          }}
+        />
+      )}
+
+      {/* Gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-navy-800/20 via-navy-900/60 to-slate-900/80 z-5" />
 
       {/* Subtle overlay for better text readability */}
-      <div className="absolute inset-0 bg-navy-900/50 z-5" />
+      <div className="absolute inset-0 bg-navy-900/30 z-5" />
 
       {/* Additional accent elements */}
       <motion.div
         style={{ y }}
         className="absolute inset-0 opacity-10 z-5"
       >
-        <div className="absolute top-20 left-10 w-72 h-72 bg-teal-400 rounded-full mix-blend-screen filter blur-3xl opacity-30" />
-        <div className="absolute bottom-20 right-10 w-72 h-72 bg-gold-400 rounded-full mix-blend-screen filter blur-3xl opacity-30" />
+        <div className="absolute top-20 left-10 w-72 h-72 bg-teal-400 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse" />
+        <div className="absolute bottom-20 right-10 w-72 h-72 bg-gold-400 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse"
+             style={{ animationDelay: '1s' }} />
       </motion.div>
 
       {/* Content */}

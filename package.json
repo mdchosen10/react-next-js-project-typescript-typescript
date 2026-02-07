@@ -15,6 +15,8 @@
     "@hookform/resolvers": "^3.3.4",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.9.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.6",
@@ -24,14 +26,12 @@
     "react": "^18.3.1",
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
-    "react-icons": "^4.12.0",
-    "simple-icons": "^9.0.0",
     "react-hook-form": "^7.50.1",
+    "react-icons": "^4.12.0",
     "resend": "^3.2.0",
     "sharp": "^0.33.0",
+    "simple-icons": "^9.0.0",
     "tailwind-merge": "^2.3.0",
-    "three": "^0.161.0",
-    "vanta": "^0.5.24",
     "zod": "^3.22.4"
   },
   "devDependencies": {
@@ -39,14 +39,14 @@
     "@types/nodemailer": "^6.4.14",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
-    "@types/three": "^0.161.2",
-    "autoprefixer": "^10.4.23",
+    "autoprefixer": "^10.4.24",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.3",
-    "postcss": "^8.4.31",
+    "postcss": "^8.5.6",
     "postcss-preset-env": "^10.0.0",
     "tailwindcss": "^3.4.19",
     "tailwindcss-animate": "^1.0.7",
+    "tsx": "^4.6.0",
     "typescript": "^5.4.5"
   }
 }

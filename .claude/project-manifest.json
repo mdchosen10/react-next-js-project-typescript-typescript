@@ -5,7 +5,7 @@
   "name": "React/Next.js project (TypeScript/TypeScript)",
   "source": "upload",
   "createdAt": "2026-01-28T06:14:43.271Z",
-  "lastSync": "2026-01-28T06:14:43.271Z",
+  "lastSync": "2026-02-07T11:00:54.601Z",
   "upload": {
     "uploadedAt": "2026-01-28T06:14:43.271Z",
     "originalFilename": "gobananas-enterprise.zip",
@@ -26,7 +26,13 @@
     "hasDatabase": false
   },
   "build": {
-    "status": "not_started",
+    "status": "in_progress",
     "completionPercentage": 0
+  },
+  "sdkSessionId": "57767e8b-c910-495b-9bc1-cdb807cd24d6",
+  "primeSelection": {
+    "frontend": true,
+    "backend": false,
+    "database": false
   }
 }
